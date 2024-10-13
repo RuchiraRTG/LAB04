@@ -17,4 +17,5 @@
     <color name="screenColor">#53b9d0</color>
     <color name="task_bar">#DFDFDF</color>
     <color name="fontcolor">#E9635F5F</color>
+    <color name="backgroundWhite">#ffffff</color>
 </resources>

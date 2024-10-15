@@ -18,4 +18,7 @@
     <color name="task_bar">#DFDFDF</color>
     <color name="fontcolor">#E9635F5F</color>
     <color name="backgroundWhite">#ffffff</color>
+    <color name="orange">#ff5722</color>
+    <color name="greenlight">#EF8080</color>
+    <color name="lunchcolor">#eeeeee</color>
 </resources>

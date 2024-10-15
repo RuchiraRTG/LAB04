@@ -80,9 +80,14 @@ class TodoAdapter(context:Context, todoList:List<Todo>, viewModel: MainActivityV
 
         //handle priority color
         if(todo.priority == "Very High"){
-            holder.todoCardView.setCardBackgroundColor(ColorStateList.valueOf(Color.parseColor("#FF5A5A")))
-        }else if(todo.priority == "High"){
+            holder.todoCardView.setCardBackgroundColor(ColorStateList.valueOf(Color.parseColor("#FFEF8080")))
+        }else if(todo.priority == "High") {
             holder.todoCardView.setCardBackgroundColor(ColorStateList.valueOf(Color.parseColor("#FFCACA")))
+        }else if(todo.priority == "Normal") {
+            holder.todoCardView.setCardBackgroundColor(ColorStateList.valueOf(Color.parseColor("#FF7AEA7D")))
+        }else if(todo.priority == "Low") {
+            holder.todoCardView.setCardBackgroundColor(ColorStateList.valueOf(Color.parseColor("#FFFAF09F")))
+
         }else{
             holder.todoCardView.setCardBackgroundColor(ColorStateList.valueOf(context.getColor(android.R.color.transparent)))
         }

@@ -28,7 +28,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_margin="16dp"
-            android:contentDescription="@string/todo"
+            android:contentDescription="Welcome to TODO"
             android:src="@drawable/baseline_add_24" />
 
     </RelativeLayout>

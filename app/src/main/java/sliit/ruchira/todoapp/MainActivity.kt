@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity(), TodoAdapter.OnItemEdit {
         todoRecyclerView = findViewById(R.id.todoRecyclerView)
         addTodoItemBtn = findViewById(R.id.addTodoItemBtn)
 
-        toolbar.title = "Todo"
+        toolbar.title = "Welcome to TODO"
         todoRecyclerView.setHasFixedSize(true)
         todoRecyclerView.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
 
